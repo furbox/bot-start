@@ -9,6 +9,7 @@
     },
     "keywords": [],
     "dependencies": {
+        "uuid": "^8.3.2",
         "@adiwajshing/baileys": "npm:@whiskeysockets/baileys",
         "@adiwajshing/keyed-db": "0.2.4",
         "@bot-whatsapp/bot": "latest",
@@ -17,8 +18,7 @@
         "@bot-whatsapp/provider": "latest",
         "@bot-whatsapp/portal": "latest",
         "mime-types": "2.1.35",
-        "wa-sticker-formatter": "4.3.2",
-        "uuid": "^8.3.2"
+        "wa-sticker-formatter": "4.3.2"
     },
     "author": "",
     "license": "ISC"
