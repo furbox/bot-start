@@ -15,7 +15,7 @@
         "@bot-whatsapp/provider": "latest",
         "@bot-whatsapp/portal": "latest",
         "mime-types": "2.1.35",
-        "@adiwajshing/baileys": "github:WhiskeySockets/Baileys",
+        "@adiwajshing/baileys": "npm:@whiskeysockets/baileys",
         "@adiwajshing/keyed-db": "^0.2.4",
         "wa-sticker-formatter": "4.3.2"
     },
