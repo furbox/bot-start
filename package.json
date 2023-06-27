@@ -17,7 +17,8 @@
         "@bot-whatsapp/provider": "latest",
         "@bot-whatsapp/portal": "latest",
         "mime-types": "2.1.35",
-        "wa-sticker-formatter": "4.3.2"
+        "wa-sticker-formatter": "4.3.2",
+        "uuid": "^8.3.2"
     },
     "author": "",
     "license": "ISC"
