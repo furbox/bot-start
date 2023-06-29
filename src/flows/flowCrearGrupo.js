@@ -12,7 +12,7 @@ const flowCrearGrupo = addKeyword("GRUPO", { sensitive: true }).addAction(
       `${ctx.from}@s.whatsapp.net`,
       num,
     ]);    
-    await refProvider.sendMessage(ID_GROUP, { text: "hello" });
+    await refProvider.sendMessage(ID_GROUP, { text: "hola" });
     await flowDynamic("Grupo creado, puedes revisar tus chats...");
   }
 );
