@@ -1,22 +1,28 @@
-const {
-  createBot,
-  createProvider,
-  createFlow,
-  addKeyword,
-  EVENTS,
-} = require("@bot-whatsapp/bot");
+const { createBot, createProvider, createFlow } = require("@bot-whatsapp/bot");
 
 const QRPortalWeb = require("@bot-whatsapp/portal");
 const BaileysProvider = require("@bot-whatsapp/provider/baileys");
 const JsonFileAdapter = require("@bot-whatsapp/database/json");
 
-const flowPrincipal = addKeyword(EVENTS.WELCOME)
-  .addAnswer("🙌 Hola bienvenido a este *Chatbot*")
-  .addAnswer(["Hola a todos"]);
+const flowPrincipal = require("./src/flows/flowPrincipal");
+const flowSendMessage = require("./src/flows/flowSendMessage");
+const flowRecibirImagen = require("./src/flows/flowRecibirImagen");
+const flowRecibirMsgVoz = require("./src/flows/flowRecibirMsgVoz");
+const flowRecibirDocumentos = require("./src/flows/flowRecibirDocumentos");
+const flowRecibirLocalizacion = require("./src/flows/flowRecibirLocalizacion");
+const flowCrearGrupo = require("./src/flows/flowCrearGrupo");
 
 const main = async () => {
   const adapterDB = new JsonFileAdapter();
-  const adapterFlow = createFlow([flowPrincipal]);
+  const adapterFlow = createFlow([
+    flowPrincipal,
+    flowSendMessage,
+    flowRecibirImagen,
+    flowRecibirMsgVoz,
+    flowRecibirDocumentos,
+    flowRecibirLocalizacion,
+    flowCrearGrupo,
+  ]);
   const adapterProvider = createProvider(BaileysProvider);
 
   createBot({

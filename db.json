@@ -1,1 +1,71 @@
-[]
+[
+  {
+    "ref": "620b5655-7030-48f3-88c0-8e293d1d4336",
+    "keyword": "95774ff8eff584df27ebc2f253c37758",
+    "answer": "Hola",
+    "options": {},
+    "from": "5219994349339",
+    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
+  },
+  {
+    "ref": "ans_f1fd354f-4491-4aa6-af40-69b4a144b8db",
+    "keyword": "key_a9ef82ca-f1ee-4587-b0cd-20ed6c1fa43a",
+    "answer": "🙌 Hola bienvenido a este *Chatbot*",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "99c0153a0442f47bb7968846f1b29efc",
+    "from": "5219994349339"
+  },
+  {
+    "ref": "ans_92b57270-195d-4691-b9ee-99f80ecdbfa9",
+    "keyword": "ans_f1fd354f-4491-4aa6-af40-69b4a144b8db",
+    "answer": "Este mensaje envia tres botones",
+    "options": {
+      "media": null,
+      "buttons": [
+        {
+          "body": "Boton 1"
+        },
+        {
+          "body": "Boton 2"
+        },
+        {
+          "body": "Boton 3"
+        }
+      ],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "e6180f2988479940f70ab4e451a1b8ee",
+    "from": "5219994349339"
+  },
+  {
+    "ref": "ans_a2b97d6c-6746-4b28-944d-7294d1cf5b25",
+    "keyword": "ans_92b57270-195d-4691-b9ee-99f80ecdbfa9",
+    "answer": "Hola a todos",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "fc9b616c212cf2dbce1576aea75ae3a3",
+    "from": "5219994349339"
+  }
+]

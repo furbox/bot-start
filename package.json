@@ -9,15 +9,16 @@
     },
     "keywords": [],
     "dependencies": {
-        "uuid": "^8.3.2",
         "@adiwajshing/baileys": "npm:@whiskeysockets/baileys",
         "@adiwajshing/keyed-db": "0.2.4",
         "@bot-whatsapp/bot": "latest",
         "@bot-whatsapp/cli": "latest",
         "@bot-whatsapp/database": "latest",
-        "@bot-whatsapp/provider": "latest",
         "@bot-whatsapp/portal": "latest",
+        "@bot-whatsapp/provider": "latest",
         "mime-types": "2.1.35",
+        "nanoid": "^4.0.2",
+        "uuid": "^8.3.2",
         "wa-sticker-formatter": "4.3.2"
     },
     "author": "",
